@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spinach, Tofu and Sesame Stir-Fry</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #faf8f5;
+      color: #333;
+      font-family: 'Nunito', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* ===== Container Layout ===== */
+    .recipe-container {
+      width: 1200px;
+      margin: 50px auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+    }
+
+    .left-column {
+      width: 35%;
+      padding-right: 20px;
+    }
+
+    .right-column {
+      width: 60%;
+    }
+
+    /* ===== Typography ===== */
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+      color: #1e3d2f;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6em;
+      color: #b85c38;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+    }
+
+    h3 {
+      font-size: 1.1em;
+      color: #555;
+      margin-bottom: 1.5em;
+    }
+
+    p {
+      margin-bottom: 1em;
+    }
+
+    ul {
+      margin-bottom: 1.5em;
+      padding-left: 1.2em;
+    }
+
+    li {
+      margin-bottom: 0.5em;
+    }
+
+    /* ===== Image ===== */
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 1.5em 0;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* ===== Preparation Section ===== */
+    .steps p {
+      margin-bottom: 1.2em;
+    }
+
+    /* ===== Tip Section ===== */
+    .tip {
+      background-color: #f5efe8;
+      padding: 1em 1.5em;
+      border-left: 4px solid #b85c38;
+      border-radius: 5px;
+      font-style: italic;
+      margin-top: 2em;
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 900px) {
+      .recipe-container {
+        flex-direction: column;
+        width: 90%;
+      }
+
+      .left-column, .right-column {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="recipe-container">
+    <!-- LEFT COLUMN -->
+    <div class="left-column">
+      <h1>Spinach, Tofu and Sesame Stir-Fry</h1>
+      <h3>By: Martha Rose Shulman</h3>
+      <p><strong>Yield:</strong> 3 Servings</p>
+
+      <img src="spinach-tofu.jpg" alt="Spinach, Tofu and Sesame Stir-Fry">
+
+      <h2>Ingredients</h2>
+      <ul>
+        <li>1 tablespoon canola oil</li>
+        <li>½ pound tofu, cut in small dice</li>
+        <li>1 large garlic clove, minced</li>
+        <li>1 teaspoon grated or minced fresh ginger</li>
+        <li>¼ teaspoon red chili flakes</li>
+        <li>Soy sauce to taste</li>
+        <li>16-ounce bag baby spinach, rinsed</li>
+        <li>2 tablespoons toasted sesame seeds</li>
+        <li>1 teaspoon sesame oil</li>
+      </ul>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="right-column">
+      <h2>Preparation</h2>
+      <div class="steps">
+        <p><strong>Step 1:</strong> Heat the canola oil over medium-high heat in a large nonstick skillet or wok, and add the tofu. Stir-fry until the tofu is lightly colored, three to five minutes, and add the garlic, ginger and chili flakes. Cook, stirring, until fragrant, about one minute, and add soy sauce to taste. Add the spinach and stir-fry until the spinach wilts, about one minute. Stir in the sesame seeds, and add more soy sauce to taste. Remove from the heat.</p>
+
+        <p><strong>Step 2:</strong> Using tongs, transfer the spinach and tofu mixture to a serving bowl, leaving the liquid behind in the pan or wok. Drizzle with the sesame oil, and add more soy sauce as desired. Serve with rice or other grains, or noodles. You may also use it as a filling for whole wheat pita bread.</p>
+      </div>
+
+      <div class="tip">
+        <p><strong>Tip:</strong> This is a last-minute preparation, but you can have your ingredients prepared well in advance.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
